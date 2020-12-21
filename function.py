@@ -1,7 +1,6 @@
-numbers = [2, 4, 6, 8]
-friends = ["Cooper", "Kevin", "Oscar", "Jim"]
-numbers.reverse()
-friends.insert(2, "Kelly")
+def say_bye(name, age):
+    print("Bye " +  name + ",You are going to die at " + age + ".")
 
-print(numbers)
-print(friends)
+say_bye("Harry", "80")
+say_bye("Steve", "95")
+
