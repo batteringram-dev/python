@@ -1,0 +1,6 @@
+Devin - Salesman
+Kevin - Receptionist
+Michael - Manager
+John - Accountant
+Toby - Human Resources
+Kelly - Customer Service
