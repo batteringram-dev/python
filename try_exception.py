@@ -1,11 +1,38 @@
 
 # Try, Exception is useful for error handling.
 
+
+'''
 try:
     number = int(input("Enter a number: "))
     print(number)
 except:
-    print("Invalid Input")
+    pass
+
+
+
+
+number = input("Enter a number: ")
+while type(number) != int:
+    number = input("Enter a number: ")
+
+
+while (is true): #boolean
+    do something # does not terminate.
+
+
+arr = list(range(1, 10000000))
+
+arr = [1, 2, 3, 4, 5]
+for i in arr:
+     i + 1
+
+for (a condition):
+    do something
+
+
+####
+
 
 # ---------------------------------------------------------------------------------------
 
@@ -24,6 +51,4 @@ except ZeroDivisionError as err:
 except ValueError:
     print("Invalid Input")
 
-
-
-
+'''
