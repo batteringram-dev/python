@@ -5,6 +5,7 @@
 
 from student import Student
 
-student1 = Student("Jim", "Business", 3.5, False)
+student1 = Student("Jim", "Business", 3.1, False)
+student2 = Student("John", "Accountant", 3.8, False)
 
-print(student1.name)
+print(student2.on_honor_roll())
