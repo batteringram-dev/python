@@ -2,7 +2,6 @@
 # Try, Exception is useful for error handling.
 
 
-'''
 try:
     number = int(input("Enter a number: "))
     print(number)
@@ -32,6 +31,40 @@ for (a condition):
 
 
 ####
+def get_input():
+    try:
+        number = int(input("Enter a number: "))
+        return number
+    except ValueError:
+        raise NameError("asd")
+
+
+def func1():
+
+    try:
+        n = get_input()
+        return n
+    except NameError as err:
+        return err
+
+res = func1()
+
+if type(res) == int:
+    print("goody")
+else:
+    print("try again, dumbo!")
+    func1()
+
+
+
+
+if type(n) == int:
+    print("goody")
+    print(n)
+else:
+    print("Not a number, dumbo!, try again")
+    get_input()
+
 
 
 # ---------------------------------------------------------------------------------------
@@ -51,4 +84,3 @@ except ZeroDivisionError as err:
 except ValueError:
     print("Invalid Input")
 
-'''
